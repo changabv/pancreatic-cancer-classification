@@ -38,40 +38,48 @@ You can install the required dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
-How to Run
-Clone the repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/pancreatic-cancer-classification.git
-Navigate to the project directory:
+## How to Run
 
-bash
-Copy code
-cd pancreatic-cancer-classification
-Install the necessary Python packages:
+1. **Clone the repository to your local machine**:
 
-bash
-Copy code
-pip install -r requirements.txt
-Download the GSE28735 dataset and extract it into the project directory.
+    ```bash
+    git clone https://github.com/your-username/pancreatic-cancer-classification.git
+    ```
 
-Run the classification model:
+2. **Navigate to the project directory**:
 
-bash
-Copy code
-python classify_pancreatic_cancer.py
-This script will:
+    ```bash
+    cd pancreatic-cancer-classification
+    ```
 
-Load and preprocess the gene expression data.
+3. **Install the necessary Python packages**:
 
-Train multiple machine learning models (Random Forest, SVM, etc.).
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Evaluate and compare model performance.
+4. **Download the GSE28735 dataset and extract it into the project directory.**
 
-Output the final accuracy, precision, recall, and F1-score for each model.
+5. **Run the classification model**:
 
-Results
-Accuracy: 83% (on test set).
+    ```bash
+    python classify_pancreatic_cancer.py
+    ```
 
-The Random Forest model outperformed other models with high accuracy and balanced precision/recall scores.
+    This script will:
+    - Load and preprocess the gene expression data.
+    - Train multiple machine learning models (Random Forest, SVM, etc.).
+    - Evaluate and compare model performance.
+    - Output the final accuracy, precision, recall, and F1-score for each model.
+
+## Results
+
+- **Accuracy**: 83% (on test set).
+- The **Random Forest** model outperformed other models with high accuracy and balanced precision/recall scores.
+
+### Evaluation Metrics:
+- **Accuracy**: The proportion of correct predictions (both tumor and non-tumor) out of all predictions.
+- **Precision**: The proportion of true positives (tumor samples correctly classified) out of all predicted positives.
+- **Recall**: The proportion of true positives out of all actual positives (tumor samples).
+- **F1-Score**: The harmonic mean of precision and recall, which gives a balanced measure of performance.
