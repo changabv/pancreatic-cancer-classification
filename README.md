@@ -34,12 +34,7 @@ To run this project, the following dependencies need to be installed:
 - numpy
 - XGBoost (Optional for enhanced performance)
 
-You can install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
-
-## How to Run
+- ## How to Run
 
 1. **Clone the repository to your local machine**:
 
@@ -59,7 +54,7 @@ pip install -r requirements.txt
     pip install -r requirements.txt
     ```
 
-4. **Download the GSE28735 dataset and extract it into the project directory.**
+4. **Download the GSE28735 dataset and extract it into the project directory**.
 
 5. **Run the classification model**:
 
