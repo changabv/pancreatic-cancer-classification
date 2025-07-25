@@ -73,6 +73,9 @@ To run this project, the following dependencies need to be installed:
 - **Accuracy**: 83% (on test set).
 - The **Random Forest** model outperformed other models with high accuracy and balanced precision/recall scores.
 
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/124b4624-4a2b-4f96-9aa7-8d44533e3cee" />
+
+
 ### Evaluation Metrics:
 - **Accuracy**: The proportion of correct predictions (both tumor and non-tumor) out of all predictions.
 - **Precision**: The proportion of true positives (tumor samples correctly classified) out of all predicted positives.
